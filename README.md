@@ -117,6 +117,15 @@ COUCH_DB_USER=
 COUCH_DB_PASS=
 ```
 
+
+#### OBS:
+
+You’ll probably hit error, complaining about missing libraries. These are all the libraries missing. Just run the below command and retest the script again.
+```
+sudo apt install -y libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxi-dev libxtst-dev libnss3 libcups2 libxss1 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libpangocairo-1.0-0 libgtk-3-0 libgbm1
+```
+
+
 ## Sources
 
 - Upstream Repository: [https://git.jasonraimondi.com/jason/url-to-png](https://git.jasonraimondi.com/jason/url-to-png)
